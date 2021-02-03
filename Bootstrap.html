@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="C:\Users\rudra das\Desktop\Bootstrap\index.html">About Us</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TECHNOLOGIES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+		<li>Basic Courses</li>
+
+            <li><a class="dropdown-item" href="#">C</a></li>
+            <li><a class="dropdown-item" href="#">C++</a></li>
+		<li><a class="dropdown-item" href="#">PYTHON</a></li>
+		<li><a class="dropdown-item" href="#">MECHINE LEARNING</a></li>
+		 <li><a class="dropdown-item" href="#">JAVA</a></li>
+		<li><a class="dropdown-item" href="#">ADVANCED WEB DEVOLOPMENT</a></li>
+
+		
+            <li><hr class="dropdown-divider">Advanced courses</li>
+
+		<li><a class="dropdown-item" href="#">DATA STRUCTURES AND ALGORITHMS</a></li>
+		<li><a class="dropdown-item" href="#">DATA ANALYSIS</a></li>
+		<li><a class="dropdown-item" href="#">DATA SCIENCE</a></li>
+		
+		<li><hr class="dropdown-divider">Premium Courses</li>
+
+		<li><a class="dropdown-item" href="#">CLOUD COMPUTING</a></li>
+		<li><a class="dropdown-item" href="#">ARTIFICIAL INTELIGENCE</a></li>
+		<li><a class="dropdown-item" href="#">ARTIFICIAL INTELIGENCE(With Mechine Learning)</a></li>
+		<li><a class="dropdown-item" href="#">ETHICAL HACKING AND CYBER SECURITY ANALYSIST</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="C:\Users\rudra das\Desktop\Bootstrap\contact.html">CONTACT US</a>
+        </li>
+      </ul>
+
+      <form class="d-flex form-inline my-4 my-lg-0 mx-2">
+        <input class="form-control me-2 mx-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+      </form>
+
+<div class="me">
+<button class="btn btn-danger mx-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+<button class="btn btn-outline-warning mx-2" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+</div>
+</div>
+</nav>
+
+
+
+<!--Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login To BiO-tech Technologies</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check Me Out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Register Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create A Account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+ <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Re-Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+ <div class="mb-3">
+    <label for="exampleInputNumber" class="form-label">Number</label>
+    <input type="Number" class="form-control" id="exampleInputNumber">
+</div>
+ <div class="mb-3">
+    <label for="exampleInputDate" class="form-label">Date</label>
+    <input type="date" class="form-control" id="exampleInputDate">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I Hearby Informed That The All Terms And Condition Of Given The Organization To Be Excepted</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1400x300/?code,water" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Welcome To BiO-tech Technologies</h1>
+        <p><h5>Any Kind Of Doubt Regardin Course Please Contact Me</h5></p>
+	<button type="button" class="btn btn-primary mx-2">Expore Technologies</button>
+	<button type="button" class="btn btn-danger mx-2">New Trends</button>
+	<button type="button" class="btn btn-success mx-2">Our Facilities</button>
+	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1400x300/?circuit,python" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Explore To Our Technologies</h1>
+        <p>><h5>Latest Faculty Would Be There And Every Doubt Should Be Cleared By Separate Videos</h5></p>
+	<button type="button" class="btn btn-warning mx-2">See Here</button>
+	<button type="button" class="btn btn-info mx-2">Latest Technologies</button>
+	<button type="button" class="btn btn-dark mx-2">Our Work Experience</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1400x300/?industry,water" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Latest Technology And News</h1>
+        <p><h5>To Explore Our Trends Technologies</h5></p>
+	
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+<div class="container my-4">
+<div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Top News</strong>
+          <h3 class="mb-0">No 1 Codding Competition 2021</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">Number 1 Codding Competition To Be Organised By BiO-tech Technologies At Manipur.In This Codding Competition 
+Many Of Tech Colleges Participate Here.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+         
+	 <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/400x300/?nature,knowledge" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Our Future</strong>
+          <h3 class="mb-0">Tie-Up Comapanies Are Here</h3>
+          <div class="mb-1 text-muted">July 11</div>
+          <p class="mb-auto">This Is Tie-Up Of Many Companies Like That Google,Microsoft,Tcs,Infosys,Wipro.One Billion Students Completed To Be Completed 
+Successfully And get a Job To This Dream Companies</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/400x300/?technology,knowledge" class="d-block w-100" alt="...">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
